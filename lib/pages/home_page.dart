@@ -1,14 +1,20 @@
+import 'package:clone_instagram/pages/storie/stories_page.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text('Instagram'),
+        title: const Text('Logo Instagram'),
         actions: [
           IconButton(
             onPressed: () {},
@@ -24,13 +30,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Row(
-        children: [
-          Container(
-            
-          ),
-        ],
-      ),
+      body: const StoriesPage(),
     );
   }
 }

@@ -13,8 +13,7 @@ class ImageFeed extends StatelessWidget {
           child: SizedBox(
             height: 400,
             width: MediaQuery.of(context).size.width,
-            child: Image.network(
-                'https://conteudo.imguol.com.br/c/esporte/bd/2023/02/09/roger-guedes-se-lamenta-em-sao-bernardo-x-corinthians-jogo-do-campeonato-paulista-1675994880597_v2_450x450.jpg'),
+            child: Image.asset('assets/images/calvo2.jpg'),
           ),
         ),
         const Column(

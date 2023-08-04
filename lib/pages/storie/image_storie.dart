@@ -31,7 +31,7 @@ class ImageStorie extends StatelessWidget {
           height: 80,
           padding: const EdgeInsets.all(4),
           child: CircleAvatar(
-            backgroundImage: NetworkImage(urlImage),
+            backgroundImage: AssetImage(urlImage),
           ),
         ),
       ],

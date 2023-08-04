@@ -19,39 +19,40 @@ class _StoriesPageState extends State<StoriesPage> {
             padding: EdgeInsets.all(8),
             child: ImageStorie(
               urlImage:
-                  'https://lncimg.lance.com.br/cdn-cgi/image/width=1300,height=750,quality=75,background=white,fit=pad/uploads/2023/05/Roger-Guedes-aspect-ratio-512-320.jpeg',
+                  'assets/images/calvo.jpeg',
             ),
           ),
+          
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
                 urlImage:
-                    'https://pbs.twimg.com/media/EQYCkTlUUAEcHSz?format=jpg&name=small'),
+                    'assets/images/bundagol.jpg'),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
-              urlImage: 'https://pbs.twimg.com/media/EqYNIzuW4AAtj3x.jpg',
+              urlImage: 'assets/images/neymar.jpg',
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
               urlImage:
-                  'https://img.quizur.com/f/img638416f95c3a02.09155291.jpg?lastEdited=1669601029',
+                  'assets/images/lobipidao.jpg',
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
               urlImage:
-                  'https://img.quizur.com/f/img64624f77d49397.45271659.jpg?lastEdited=1684164477',
+                  'assets/images/cururu.jpg',
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
-              urlImage: 'https://pbs.twimg.com/media/FJVm-C9XMAkKHhR.jpg',
+              urlImage: 'assets/images/cachorro.jpg',
             ),
           ),
         ],

@@ -12,9 +12,7 @@ class ProfileFeed extends StatelessWidget {
         child: Row(
           children: [
             const CircleAvatar(
-              backgroundImage: NetworkImage(
-                'https://lncimg.lance.com.br/uploads/2023/05/Roger-Guedes-aspect-ratio-512-320.jpeg',
-              ),
+              backgroundImage: AssetImage('assets/images/calvo.jpeg'),
               radius: 20,
             ),
             const SizedBox(

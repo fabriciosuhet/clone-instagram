@@ -25,17 +25,14 @@ class _StoriesPageState extends State<StoriesPage> {
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
-              urlImage:
-                  'https://pbs.twimg.com/media/EQYCkTlUUAEcHSz?format=jpg&name=small',
-            ),
+                urlImage:
+                    'https://pbs.twimg.com/media/EQYCkTlUUAEcHSz?format=jpg&name=small'),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
-              urlImage:
-                  'https://pbs.twimg.com/media/EqYNIzuW4AAtj3x.jpg',
+              urlImage: 'https://pbs.twimg.com/media/EqYNIzuW4AAtj3x.jpg',
             ),
-            
           ),
           Padding(
             padding: EdgeInsets.all(8),
@@ -54,8 +51,7 @@ class _StoriesPageState extends State<StoriesPage> {
           Padding(
             padding: EdgeInsets.all(8),
             child: ImageStorie(
-              urlImage:
-                  'https://pbs.twimg.com/media/FJVm-C9XMAkKHhR.jpg',
+              urlImage: 'https://pbs.twimg.com/media/FJVm-C9XMAkKHhR.jpg',
             ),
           ),
         ],
